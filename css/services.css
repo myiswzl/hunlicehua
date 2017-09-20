@@ -1,0 +1,316 @@
+html, body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+body {
+	overflow-x: hidden;
+}
+.navbar-nav {
+	padding: 30px 14px;
+}
+.navbar {
+	background-color: #fff;
+	margin-bottom: 0px;
+}
+.logo1 {
+	padding-right: 100px;
+}
+.collapse ul li a {
+	color: #111111 !important;
+}
+.collapse ul li a:hover {
+	color: #ee0548 !important;
+}
+.navbar-right {
+	position: relative;
+}
+.fengexian::after {
+	position: absolute;
+	content: "";
+	top: 14px;
+	right: 0px;
+	height: 20px;
+	width: 1px;
+	background: #666666;
+}
+
+/* 一 */
+.two {
+	padding: 90px 0;
+	background-size: cover;
+	background-position: center center;
+	background: url('../images/banner.png') no-repeat;
+}
+.two1 h1 {
+	color: #ffffff;
+	font-family: 'Alex Brush', cursive;
+	font-size: 72px;
+	position: relative;
+}
+.two1 ul li {
+	display: inline-block;
+	border: 0px;
+	margin: 0px 10px;
+	font-weight: 600;
+	position: relative;
+	text-transform: uppercase;
+}
+.two1 ul li a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+}
+.two1 ul li:first-child:after {
+
+	/* 第一个儿子增加里面增加类 */
+	position: absolute;
+	content: "\f101";
+	top: 0;
+	left: 50px;
+	right: 0;
+	display: block;
+}
+#two1li {
+	color: #ee0548;
+}
+/* 二 */
+.there{
+	background: #f1f1f1;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.there .there1{
+	margin: 0 20px;
+    overflow: hidden;
+}
+.there2{
+	zoom: 1;
+    overflow: hidden;
+}
+.there2-left{
+	float: left !important;
+	margin-right: 20px;
+	padding-right: 10px;
+}
+.there2-left a{
+	display: block;
+    background: #ffffff;
+    padding: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    transition: all 0.5s ease 0s;
+}
+.there2-right{
+	display: table-cell; /* 让标签元素以表格单元格的形式呈现 */
+	vertical-align: top; /* 属性设置元素的垂直对齐方式 */
+	width: 1000px;
+	zoom: 1;
+    overflow: hidden;
+}
+.there2-right h4{
+    line-height: 1.1;
+    padding-bottom: 5px;
+}
+.there2-right h4 a{
+	font-weight: 800;
+    font-size: 24px;
+    color: #111111;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+}
+.there2-right h4 a::after{
+	position: absolute;
+    top: 45px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #ee0548;
+    content: "";
+}
+.there2-right p{
+	margin-bottom: 15px;
+}
+.there2-right h4 a:hover{
+	color: #ee0548;
+	text-decoration: none;
+}
+.there2-left a:hover{
+	background: #000;
+}
+
+/* 四 */
+.container-fluid {
+	padding: 50px 0px;
+}
+.text1 h2 {
+	color: #382d44;
+	font-family: 'Alex Brush', cursive;
+	font-size: 60px;
+	margin-bottom: 65px;
+	position: relative;
+	text-align: center;
+}
+.text1 h2::after {
+	background: rgba(0, 0, 0, 0) url('../images/section-line.png') no-repeat scroll 0 0;
+	content: "";
+	height: 100px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 75px;
+	width: 91px;
+}
+.text1 p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.text1-1 {
+	padding-bottom: 50px;
+}
+.four{
+	padding-top: 50px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a, .nav-pills li a:hover{
+	color: #fff;
+    background: #ee0548;
+}
+.nav-pills>li>a{
+    border: 1px solid #ee0548;
+    color: #ee0548;
+}
+.nav-pills{
+	margin-bottom: 20px;
+}
+.four1 a{
+	position: relative;
+}
+.four1::after{
+	position: absolute;
+    top: 19px;
+    left: 110%;
+    width: 600px;
+    height: 1px;
+    background: #d9d9d9;
+    content: "";
+}
+.four2{
+	opacity: 1;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.four2-1{
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.four2-1 ul{
+	width: 1600px;
+	overflow: hidden;
+	list-style: none;
+	margin-left: 0px !important;
+	position: relative;
+	left: -46px;
+}
+.four2-1 ul li{
+	float: left;
+	padding: 0px 5px;
+	position: relative;
+}
+.four5{
+	width: 120px;
+	top: 40%;
+    transform-origin: 0 0 0;
+    transition: all 0.5s ease 0s;
+    position: absolute;
+    left: 33%;
+    right: 0;
+    z-index: 9;
+    opacity: 0;
+}
+.four5 a{
+	display: inline-block;
+    background: #ffffff;
+    width: 100px;
+    height: 45px;
+    z-index: 999;
+    margin: auto;
+    line-height: 45px;
+    color: #111111;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+}
+.four3{
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+.four4{
+	box-sizing: border-box;
+}
+/* 六 */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.dibu {
+	padding: 100px 0;
+	background: url('../images/bg (1).jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.text-center ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+.text-center ul li {
+	list-style: none;
+	color: #fff;
+}
+.han img {
+	max-width: 100%;
+	height: auto;
+}
+.single-footer {
+	margin: 33% auto;
+}
+.single-footer ul li {
+	font-size: 25px;
+}
+.single-footer ul li i {
+	color: #ffffff;
+	margin-right: 20px;
+}
+#anniu3 {
+	background: url(../images/love.png) no-repeat;
+	bottom: 50px;
+	color: #ffffff !important;
+	display: block;
+	font-size: 0px;
+	height: 70px;
+	line-height: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	width: 70px;
+	display: none;
+}
+#anniu3 i {
+	display: block;
+	padding-top: 12px;
+	font-size: 30px;
+	font-weight: bold;
+}

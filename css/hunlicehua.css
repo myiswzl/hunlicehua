@@ -1,0 +1,401 @@
+html, body{
+	    font-family: 'Roboto Slab', serif;
+		font-size: 14px;
+
+}
+body{
+    overflow-x: hidden;
+}
+.navbar-nav{ 
+	padding: 30px 14px;}
+.navbar{
+	background-color: #fff;
+	margin-bottom: 0px;
+}
+.logo1{
+	padding-right: 100px;
+}
+.collapse ul li a{
+	color: #111111 !important;
+}
+.collapse ul li a:hover{
+	color: #ee0548 !important;
+}
+.navbar-right{
+	position: relative;
+}
+.fengexian::after{
+	position: absolute;
+    content: "";
+    top: 14px;
+    right: 0px;
+    height: 20px;
+    width: 1px;
+    background: #666666;
+}
+
+.huaxu1{
+	margin-bottom: 100px;
+}
+.huaxu1 samp{
+	color: #e8e8e8;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 15px;/* 字体间隔 */
+    text-transform: uppercase; /* 转化为大写 */
+
+}
+.huaxu1 div a{
+	color: #fff;
+    border: 1px solid #ee0548;
+    transition: all 0.5s ease 0s;
+    border-radius: 40px;
+    border: 1px solid red;
+    background: transparent;
+    padding: 12px 28px;
+    text-decoration: none;
+}
+.huaxu1 div a:hover{
+	background: #ee0548;
+
+}
+.carousel-indicators .active{
+	background: #ee0548;
+}
+.huaxu1 h1{
+	font-family: 'Alex Brush', cursive;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+.glyphicon-chevron-right:before{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #000;
+	color: red;
+    padding-top: 15px;
+}
+.glyphicon-chevron-left:before{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #000;
+	color: red;
+    padding-top: 15px;
+}
+.wenzi{
+	font-size: 16px;
+    color: #999;
+    font-weight: normal;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.logo2{
+    height: 60px;
+    margin: 20px auto;
+    background: url('../images/slide-border.png') no-repeat center center;
+    transition: all 3s;
+}
+.logo3{
+    transition: all 3s;
+    display:inline-block;
+}
+.logo4{
+     transition: all 1s;
+     display:inline-block;
+}
+.logo5{
+     transition: all 1s;
+     display:inline-block;
+}
+
+/* 动画 */
+
+.fangda{
+	transform: scale(0.1);
+	opacity:0.2;
+}
+.zuo{
+    margin-left: -800px;
+}
+.you{
+    margin-right: -800px;
+}
+
+/* 三 */
+.container-fluid{
+	padding-top: 50px;
+	background-color: #f0f0f0;
+}
+.text1 h2{
+	color: #382d44;
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+    margin-bottom: 65px;
+    position: relative;
+    text-align: center;
+}
+.text1 h2::after{
+	background: rgba(0, 0, 0, 0) url('../images/section-line.png') no-repeat scroll 0 0;
+    content: "";
+    height: 100px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    width: 91px;
+}
+.text1 p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.text1-1{
+	padding-bottom: 50px;
+}
+.thumbnail{
+    text-align: center;
+    background: url('../images/bg.png') no-repeat;
+    transition: all 0.5s ease 0s;
+    padding: 49px 0;
+    background-size: cover;
+    background-position: 0 0;
+}
+.thumbnail:hover{
+	background: url('../images/hover.png') no-repeat;
+	background-size: cover;
+
+}
+.tubiao{
+	padding: 40px 0px 30px 0px;
+	min-height: 136px;
+}
+.thumbnail>h3{
+	font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 50px;
+    transition: all 0.5s ease 0s;
+}
+.thumbnail>h3::after{
+	position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60px;
+    height: 3px;
+    background: #ee0548;
+    content: "";
+}
+.thumbnail>h3:hover{
+	color: #ee0548;
+}
+.thumbnail>div>a{
+	color: #000;
+    border: 1px solid #ee0548;
+    transition: all 0.5s ease 0s;
+    border-radius: 40px;
+    border: 1px solid red;
+    background: transparent;
+    padding: 12px 28px;
+    text-decoration: none;
+}
+.thumbnail>div>a:hover{
+	background: #ee0548;
+	color: #fff;
+}
+.thumbnail>p{
+	margin-bottom: 30px;
+}
+.anniu2{
+	display: inline-block;
+	padding-bottom: 32px;
+}
+
+.home-page-about-area {
+    padding: 100px 0;
+}
+.there2{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.there3{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* 四 */
+.four{
+	padding: 100px 0px;
+}
+.about-us-feature-image img{
+	max-width: 100%;
+    height: auto;
+}
+.about-us-content h2{
+	font-size: 72px;
+    color: #382d44;
+}
+.about-us-content h2 span{
+    color: #ee0548;
+}
+.about-us-content p{
+	margin-bottom: 15px;
+	color: #646464;
+}
+/* 四 */
+.five{
+    padding: 90px 0;
+    background-size: cover;
+    background-position: center center;
+    background: url('../images/banner.png') no-repeat;
+}
+.five h1{
+    color: #ffffff;
+    font-family: 'Alex Brush', cursive;
+    font-size: 72px;
+    position: relative;
+}
+.five h1::before{
+    position: absolute;
+    left: -110px;
+    top: 26px;
+    content: "";
+    background: url('../images/left.png') no-repeat;
+    height: 60px;
+    width: 100px
+}
+.five h1::after{
+    position: absolute;
+    right: 0px;
+    top: 26px;
+    content: "";
+    background: url('../images/right.png') no-repeat;
+    height: 60px;
+    width: 100px;
+}
+.five1{
+    padding-left: 0px;
+}
+/* 五 */
+
+.beizhu{
+    text-align: center;
+    margin-top: 30px;
+}
+.beizhu a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #ee0548;
+    font-weight: bold;
+    transition: all 0.5s ease 0s;
+}
+.beizhu a:hover{
+    color: #820529;
+}
+.beizhu p{
+    margin-top: 15px;
+}
+.qubeijing a img{
+    transition: all 2s
+}
+.qubeijing a img:hover{
+    transform: scale(1.3)
+}
+.ten{
+    padding-bottom:100px;
+}
+.container-fluid{
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+}
+/* 六 */
+.six1{
+    color: #fff;
+}
+.lunbofang{
+    padding: 100px 0;
+    background: url('../images/bg (1).png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.lunbofang1{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    opacity: 1;
+    display: block;
+}
+.lunbofang2{
+    width: 2253px;
+    position: relative;
+    /* transition: all 2s; */
+}
+/* 七 */
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dibu{
+    padding: 100px 0;
+    background: url('../images/bg (1).jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.text-center ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.text-center ul li{
+    list-style: none;
+    color: #fff;
+}
+.han img{
+    max-width: 100%;
+    height: auto;
+}
+.single-footer{
+    margin: 33% auto;
+}
+.single-footer ul li{
+    font-size: 25px;
+}
+.single-footer ul li i{
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+#anniu3{
+    background: url(../images/love.png) no-repeat;
+    bottom: 50px;
+    color: #ffffff !important;
+    display: block;
+    font-size: 0px;
+    height: 70px;
+    line-height: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    width: 70px;
+    display: none;
+}
+#anniu3 i{
+    display: block;
+    padding-top: 12px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
